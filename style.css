@@ -1,0 +1,49 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 550px;
+    height: 880px;
+}
+
+.container {
+    display: grid;
+    background-color:#181818;
+    grid-template-columns:550px auto;
+}
+
+.right-container {
+    transform: scale(1.6);
+    color: white;
+    height: 800px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    width: 100px;
+    height: 25px;
+    border: 2px solid royalblue;
+    border-radius: 25px;
+    background-color:  #181818;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.sign-up-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
