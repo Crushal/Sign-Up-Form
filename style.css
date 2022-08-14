@@ -21,6 +21,7 @@ img {
     height: 800px;
     width: 1000px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -42,8 +43,24 @@ button:active {
     transform: scale(0.9);
 }
 
-.sign-up-button {
+.sign-up-button, .login-button {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+}
+
+.login-link, .signup-link {
+    margin: 15px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: royalblue;
 }
